@@ -14,12 +14,15 @@ public class ProcessoSeletivo {
 		
 		int candidatosSelecionados = 0;
 		int candidatoAtual = 0;
+		double salarioBase=2000.0;
 		while(candidatosSelecionados < 5) {
 			String candidato = candidatos[candidatoAtual];
 			double salarioPretendido = valorPretendido();
 			
 			System.out.println("O candidato " + candidato + ", solicitou este valor de salario " + salarioPretendido );
-			
+			if(salarioBase >= salarioPretendido) {
+				candidatosSelecionados++;
+			}
 		}
 	}
 	
