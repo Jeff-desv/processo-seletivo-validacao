@@ -1,12 +1,29 @@
 package candidatura;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class ProcessoSeletivo {
 
 	public static void main(String[] args) {
-		analisarCandidato(1900.0);
-		analisarCandidato(2200.0);
-		analisarCandidato(2000.0);
 
+	}
+	
+	static void selecaoCandidatos() {
+		
+		String [] candidatos = {"FELIPE", "MARCIA", "JULIA", "PAULO", "AGUSTO", "MONICA", "FABRÍCIO", "MIRELLA", "DAVI", "LILIA"};
+		
+		int candidatosSelecionados = 0;
+		int candidatoAtual = 0;
+		while(candidatosSelecionados < 5) {
+			String candidato = candidatos[candidatoAtual];
+			double salarioPretendido = valorPretendido();
+			
+			System.out.println("O candidato " + candidato + ", solicitou este valor de salario " + salarioPretendido );
+		}
+	}
+	
+	static double valorPretendido() {
+		return ThreadLocalRandom.current().nextDouble(1800,2200);
 	}
 	
 	static void analisarCandidato(double salarioPretendido) {
