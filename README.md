@@ -43,18 +43,28 @@ Desafio de Projeto - Bootcamp Santander + DIO
  <p>
  O <b>RH</b> deverá realizar uma ligação com no máximo 03 tentativas para cada candidato selecionado <br> e caso o candidato atenda , deve-se imprimir o seguinte: <br>
  </p>
- <ol>
+ <ul>
    <li>
    "CONSEGUIMOS CONTATO COM <b>[CANDIDATO]</b> APÓS <b>[TENTATIVAS]</b> TENTATIVAS"
    </li>
    <li>
    do contrário imprima: <b>"NÃO CONSEGUIMOS CONTATO COM O [CANDIDATO]</b>.
    </li>
- </ol>
+ </ul>
 
 <h1>Controle de Fluxo - Desafio</h1>
 
 <p>
-Criar um sistema que deverá receber dois parâmetros via terminal que represetarão dois números <br>
-você deverá obter a quantidade de interações (for) e realizar a impressão no console (System.out.print) dos números incrementados ex: <br>
+  Criar um sistema que deverá receber dois parâmetros via terminal que represetarão dois números <br>
+  você deverá obter a quantidade de interações (for) e realizar a impressão no console (System.out.print) dos números incrementados ex: <br>
 </p>
+<ul>
+  <li>
+    Se você passar os números 12 e 30, logo teremos uma interação (for) com ocorrências para imprimir os números ex: <br>
+    <b>"Imprimindo o Número 1"</b>, <b>"Imprimindo o número 2</b>, e assim por diante.
+  </li>
+  <li>
+    Se o primeiro parâmetro for <b>MAIOR</b> que o segundo parâmetro, você deverá lançar exceções customizadas chamada de <br>
+    <b>ParametrisInvalidosException</b> com a seguinte mensagem: "O segundo parâmetro deve ser maior que o primeiro". 
+  </li> 
+</ul>
