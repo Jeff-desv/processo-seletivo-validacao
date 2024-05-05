@@ -2,7 +2,7 @@
 Desafio de Projeto - Bootcamp Santander + DIO
 
 <h1>CASES</h1> <br>
-<h3><b>Case</b> 1</h3>
+<h3><b>Case</b> 1:</h3>
 
 <p>
   Vamos imaginar que em um Processo Seletivo existe o valor base salarial de <b>R$ 2.000,00</b> <br>
@@ -25,9 +25,29 @@ Desafio de Projeto - Bootcamp Santander + DIO
   </li>
 </ol> <br>
 
-<h3><b>Case</b> 2</h3>
+<h3><b>Case</b> 2:</h3>
 
 <p>
   Foi Solicitado que nosso sistema garanta que diante das inúmeras candidaturas sejam selecionados <br> 
-  apenas no máximo <b>5</b> candidatos para
+  apenas no máximo <b>5</b> candidatos para entrevista onde o salário pretendido seja menor ou igual ao salário base.
 </p>
+<br>
+
+<h3><b>Case</b> 3:</h3>
+
+<p>
+ Agora é a hora de imprimir a lista dos candidatos selecionados para disponibilizar para o RH entrar em Contato.
+</p> <br>
+
+<h3><b>Case</b> 4:</h3>
+ <p>
+ O <b>RH</b> deverá realizar uma ligação com no máximo 03 tentativas para cada candidato selecionado <br> e caso o candidato atenda , deve-se imprimir o seguinte: <br>
+ </p>
+ <ol>
+   <li>
+   "CONSEGUIMOS CONTATO COM <b>[CANDIDATO]</b> APÓS <b>[TENTATIVAS]</b> TENTATIVAS"
+   </li>
+   <li>
+   do contrário imprima: <b>"NÃO CONSEGUIMOS CONTATO COM O [CANDIDATO]</b>.
+   </li>
+ </ol>
