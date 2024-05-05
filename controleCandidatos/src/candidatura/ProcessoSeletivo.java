@@ -21,9 +21,10 @@ public class ProcessoSeletivo {
 			
 			System.out.println("O candidato " + candidato + ", solicitou este valor de salario " + salarioPretendido );
 			if(salarioBase >= salarioPretendido) {
+				System.out.println("O candidato " + candidato + " foi selecionado para a vaga");
 				candidatosSelecionados++;
-				
 			}
+			candidatoAtual++;
 		}
 	}
 	
