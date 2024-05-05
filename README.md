@@ -73,7 +73,7 @@ Desafio de Projeto - Bootcamp Santander + DIO
     Crie o projeto <b>DesafioControleFluxo</b>
   </li>
   <li>
-    Dentro do projeto, crie a classe <b>Contador.jav</b> para realizar toda a codificação do nosso programa.
+    Dentro do projeto, crie a classe <b>Contador.java</b> para realizar toda a codificação do nosso programa.
   </li>
   <li>
     Dentro do projeto, crie a classe <b>ParametrosInvalidosException</b> que representará a execeção de negócio do sistema.
