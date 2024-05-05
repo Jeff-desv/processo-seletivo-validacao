@@ -51,3 +51,10 @@ Desafio de Projeto - Bootcamp Santander + DIO
    do contrário imprima: <b>"NÃO CONSEGUIMOS CONTATO COM O [CANDIDATO]</b>.
    </li>
  </ol>
+
+<h1>Controle de Fluxo - Desafio</h1>
+
+<p>
+Criar um sistema que deverá receber dois parâmetros via terminal que represetarão dois números <br>
+você deverá obter a quantidade de interações (for) e realizar a impressão no console (System.out.print) dos números incrementados ex: <br>
+</p>
