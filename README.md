@@ -68,3 +68,14 @@ Desafio de Projeto - Bootcamp Santander + DIO
     <b>ParametrisInvalidosException</b> com a seguinte mensagem: "O segundo parâmetro deve ser maior que o primeiro". 
   </li> 
 </ul>
+<ol>
+  <li>
+    Crie o projeto <b>DesafioControleFluxo</b>
+  </li>
+  <li>
+    Dentro do projeto, crie a classe <b>Contador.jav</b> para realizar toda a codificação do nosso programa.
+  </li>
+  <li>
+    Dentro do projeto, crie a classe <b>ParametrosInvalidosException</b> que representará a execeção de negócio do sistema.
+  </li>
+</ol>
